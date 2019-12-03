@@ -1,0 +1,3 @@
+2019-11-11 20:59:02.897 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [/Users/paper/eclipse-workspace/ScoreSystem/target/classes/com/score/mapper/UserMapper.class]
+2019-11-11 20:59:02.899 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.score.mapper.UserMapper' mapperInterface
+2019-11-11 20:59:02.899 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.

@@ -1,0 +1,31 @@
+spring:
+#  mvc:
+#    static-path-pattern: /static/**/
+#  resources:
+#    static-locations: classpath:/static/
+  datasource: 
+    url: jdbc:mysql://localhost:3306/score_system?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: rnrals9795
+    driverClassName: com.mysql.cj.jdbc.Driver
+  redis: 
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+    timeout: 300
+    password: rnrals9795
+    jedis:
+      pool: 
+        max-active: 32
+        max-wait: 300
+        max-idle: 16
+        min-idle: 8
+
+mybatis:
+  typeAliasesPackage: com.score.bean
+  mapper-locations: classpath:/mapper/*.xml
+  configuration:
+    # 使用自动生成的主键
+    use-generated-keys: true
+    # 驼峰映射
+    map-underscore-to-camel-case: true
